@@ -1,32 +1,32 @@
 Simple AI Chart Bot
 A lightweight and interactive bot to generate charts and provide AI-powered insights from your data. This bot allows you to upload data, visualize it using various chart types, and query the data for trends or summaries using AI.
-Features
-📝 Data Input: Accepts CSV, Excel, or manual data input.
-📊 Chart Generation: Generates bar charts, line graphs, scatter plots, and more.
-🤖 AI-Powered Analysis: Answer questions about trends, patterns, and summaries using OpenAI's API.
-🌐 Web Interface: A user-friendly interface built with Flask.
-🚀 Customizable: Extend the bot to support additional chart types or analysis features.
-Installation
+*Features
+1.📝 Data Input: Accepts CSV, Excel, or manual data input. , 
+2.📊 Chart Generation: Generates bar charts, line graphs, scatter plots, and more. , 
+3.🤖 AI-Powered Analysis: Answer questions about trends, patterns, and summaries using OpenAI's API. , 
+4.🌐 Web Interface: A user-friendly interface built with Flask. , 
+5.🚀 Customizable: Extend the bot to support additional chart types or analysis features. ,
+*Installation
 Clone this repository:
 git clone https://github.com/yourusername/simple-ai-chart_bot.git
 cd simple-ai-chart_bot
 
-Create a virtual environment:
+*Create a virtual environment:
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-Install the required dependencies:
+*Install the required dependencies:
 pip install -r requirements.txt
 
-Add your OpenAI API Key in the .env file:
+*Add your OpenAI API Key in the .env file:
 OPENAI_API_KEY=your-api-key
 Usage
 
-Run the Application
+*Run the Application
 Start the Flask server:
 python app.py
 
-Open your browser and go to:
+*Open your browser and go to:
 http://127.0.0.1:5000
 Generate Charts
 Upload a CSV file or manually input data.
